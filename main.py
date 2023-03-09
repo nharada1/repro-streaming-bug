@@ -80,7 +80,7 @@ def main():
     # Init our dataset
     dataset = Dataset(
         local="/tmp/testing/cache",
-        remote="s3://fmow-full-mosaic-west/datasets/fmow_test_set",
+        remote="s3://nharada-public-data/datasets/fmow_test_set",
         split="train",
         transform=transforms.Compose(
             [
